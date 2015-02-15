@@ -9,7 +9,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MODID)
 public class ItemInit {
 	
-	public static final ItemTemp item = new GenericItem();
+	public static final ItemTemp item = new ItemTemp();
 	
 	public static void init()	{
 		

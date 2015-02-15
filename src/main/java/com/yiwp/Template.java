@@ -1,7 +1,5 @@
 package com.yiwp;
 
-import net.minecraft.init.Blocks;
-
 import com.yiwp.config.ConfigurationHandler;
 import com.yiwp.init.BlockInit;
 import com.yiwp.init.ItemInit;
@@ -9,6 +7,7 @@ import com.yiwp.proxy.IProxy;
 import com.yiwp.reference.Reference;
 import com.yiwp.utils.LogHelper;
 
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -21,6 +20,9 @@ public class Template
 {
 	
 	@Mod.Instance(Reference.INSTANCE)
+    public static Template instance;
+
+    @SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.SERVER)
 	public static IProxy proxy;
 
 	@EventHandler
@@ -29,7 +31,7 @@ public class Template
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		BlockInit.init();
-		ItemInit.init();
+		//ItemInit.init();
 		
 		LogHelper.info("Pre Initialization Complete");
 		

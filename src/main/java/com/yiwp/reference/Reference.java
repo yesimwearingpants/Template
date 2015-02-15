@@ -8,6 +8,6 @@ public class Reference {
     public static final String BUILD = "0";
     public static final String INSTANCE = NAME;
     public static final String CLIENT = "com.yiwp.proxy.TemplateProxyClient";
-    public static final String Server = "com.yiwp.proxy.TemplateProxyServer";
+    public static final String SERVER = "com.yiwp.proxy.TemplateProxyServer";
     public static final String GUIFACTORY = "com.yiwp.client.gui.GuiFactory";
 }
