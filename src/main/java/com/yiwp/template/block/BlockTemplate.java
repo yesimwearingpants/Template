@@ -11,8 +11,10 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 public class BlockTemplate extends ExtBlock {
 	
-	public BlockTemplate(Material material, float hardness, float resistance, String name) {
-		super(material, hardness, resistance, name);
+	public BlockTemplate(Material material, float hardness, float resistance, String tex) {
+		super(material, tex);
+		this.setHardness(hardness);
+		this.setResistance(resistance);
 	}
 
 	@Override
