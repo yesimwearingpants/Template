@@ -1,11 +1,11 @@
-package com.yiwp.reference;
+package com.yiwp.template.reference;
 
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;
 
-import com.yiwp.config.ConfigurationHandler;
-import com.yiwp.reference.Reference;
+import com.yiwp.template.config.ConfigurationHandler;
+import com.yiwp.template.reference.Reference;
 
 import cpw.mods.fml.client.config.GuiConfig;
 

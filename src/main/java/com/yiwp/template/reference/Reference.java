@@ -1,4 +1,4 @@
-package com.yiwp.reference;
+package com.yiwp.template.reference;
 
 public class Reference {
 

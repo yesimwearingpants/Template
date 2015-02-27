@@ -1,8 +1,8 @@
-package com.yiwp.utils;
+package com.yiwp.template.utils;
 
 import org.apache.logging.log4j.Level;
 
-import com.yiwp.reference.Reference;
+import com.yiwp.template.reference.Reference;
 
 import cpw.mods.fml.common.FMLLog;
 

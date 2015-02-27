@@ -1,10 +1,10 @@
-package com.yiwp.creativetab;
+package com.yiwp.template.creativetab;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-import com.yiwp.init.ItemInit;
-import com.yiwp.reference.Reference;
+import com.yiwp.template.init.ItemInit;
+import com.yiwp.template.reference.Reference;
 
 public class CreativeTabTemp extends CreativeTabs {
 
@@ -12,12 +12,12 @@ public class CreativeTabTemp extends CreativeTabs {
 		super(label);
 		
 	}
-
-	public static final CreativeTabs Temp_TAB = new CreativeTabs(Reference.MODID)	{
+	
+	public static final CreativeTabs INSTANCE = new CreativeTabs(Reference.MODID)	{
 		
 		@Override
 		public Item getTabIconItem() {
-			return ItemInit.item;
+			return ItemInit.itemGeneric;
 		}
 		
 		@Override

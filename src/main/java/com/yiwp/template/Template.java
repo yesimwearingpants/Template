@@ -1,11 +1,11 @@
-package com.yiwp;
+package com.yiwp.template;
 
-import com.yiwp.config.ConfigurationHandler;
-import com.yiwp.init.BlockInit;
-import com.yiwp.init.ItemInit;
-import com.yiwp.proxy.IProxy;
-import com.yiwp.reference.Reference;
-import com.yiwp.utils.LogHelper;
+import com.yiwp.template.config.ConfigurationHandler;
+import com.yiwp.template.init.BlockInit;
+import com.yiwp.template.init.ItemInit;
+import com.yiwp.template.proxy.IProxy;
+import com.yiwp.template.reference.Reference;
+import com.yiwp.template.utils.LogHelper;
 
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.FMLCommonHandler;

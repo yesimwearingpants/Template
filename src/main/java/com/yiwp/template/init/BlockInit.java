@@ -1,9 +1,9 @@
-package com.yiwp.init;
+package com.yiwp.template.init;
 
 import net.minecraft.block.material.Material;
 
-import com.yiwp.block.BlockTemplate;
-import com.yiwp.reference.Reference;
+import com.yiwp.template.block.BlockTemplate;
+import com.yiwp.template.reference.Reference;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

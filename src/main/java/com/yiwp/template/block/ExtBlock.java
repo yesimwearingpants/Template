@@ -1,4 +1,4 @@
-package com.yiwp.block;
+package com.yiwp.template.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

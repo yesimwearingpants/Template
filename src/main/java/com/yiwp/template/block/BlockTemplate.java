@@ -1,11 +1,11 @@
-package com.yiwp.block;
+package com.yiwp.template.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
-import com.yiwp.creativetab.CreativeTabTemp;
-import com.yiwp.reference.Reference;
+import com.yiwp.template.creativetab.CreativeTabTemp;
+import com.yiwp.template.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

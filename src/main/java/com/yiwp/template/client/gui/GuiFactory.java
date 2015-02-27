@@ -1,11 +1,11 @@
-package com.yiwp.client.gui;
+package com.yiwp.template.client.gui;
 
 import java.util.Set;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 
-import com.yiwp.reference.GuiConfiguration;
+import com.yiwp.template.reference.GuiConfiguration;
 
 import cpw.mods.fml.client.IModGuiFactory;
 
