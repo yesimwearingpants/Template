@@ -11,7 +11,7 @@ public abstract class ExtBlock extends Block {
 	//Metadata
 	public ExtBlock(Material material) {
 		super(material);
-		this.setBlockName(Reference.MODID + ":");
+		this.setBlockName(Reference.MODID.toLowerCase() + ":");
 		this.setCreativeTab(CreativeTabTemp.INSTANCE);
 	}
 
@@ -19,7 +19,7 @@ public abstract class ExtBlock extends Block {
 	public ExtBlock(Material material, String tex) {
 		super(material);
 		this.setCreativeTab(CreativeTabTemp.INSTANCE);
-		this.setBlockName(Reference.MODID + ":" + tex);
+		this.setBlockName(Reference.MODID.toLowerCase() + ":" + tex);
 		this.setBlockTextureName("block" + tex);
 	}
 
